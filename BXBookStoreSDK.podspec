@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BXBookStoreSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "贝享小说阅读器"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files    = "Classes/**/*.h"
+  spec.source_files    = "BXBookStoreSDK/BXBookStoreSDK.framework/Headers/*.{h}"
+  spec.vendored_frameworks = 'BXBookStoreSDK/BXBookStoreSDK.framework'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -104,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "BXBookStoreBoundle.bundle"
+  spec.resources = "BXBookStoreSDK/BXBookStoreBoundle.bundle"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
