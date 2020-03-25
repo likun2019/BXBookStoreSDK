@@ -9,20 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-/** 环境,测试和预发,只有内网有效,外部使用只能用线上环境 */
-typedef NS_ENUM (NSInteger, BXBookStoreEnvironment) {
-    /** 线上环境 */
-    BXBookStoreEnvironmentRelease= 0,
-    /** 测试环境 */
-    BXBookStoreEnvironmentDaily
-};
 
 @interface BXNovelManager : NSObject
 
 +(instancetype)defaultManager;
-
-/// 系统环境 默认线上环境
-@property (nonatomic,assign) BXBookStoreEnvironment environment;
 
 /// 设置平台appkey
 /// @param appkey 平台的appKey
