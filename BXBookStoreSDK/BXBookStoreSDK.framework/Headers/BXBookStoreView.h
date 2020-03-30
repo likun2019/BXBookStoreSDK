@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 /// 登录点击事件
 - (void)bookStoreLogin;
+/// 开始滑动
+- (void)scrollViewBeginScroll;
 @end
    
 @interface BXBookStoreView : UIView
