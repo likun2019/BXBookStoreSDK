@@ -16,15 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BXBookStoreSDK"
-  spec.version      = "2.3.2"
-  spec.summary      = "贝享小说阅读器"
+  spec.version      = "2.3.3"
+  spec.summary      = "小说阅读SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "杭州贝享网络科技有限公司小说阅读器"
+  spec.description  = "杭州贝享网络科技有限公司"
 
   spec.homepage     = "https://github.com/likun2019"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
