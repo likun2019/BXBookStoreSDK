@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BXBookStoreSDK"
-  spec.version      = "2.3.4"
+  spec.version      = "2.3.4.1"
   spec.summary      = "小说阅读SDK"
 
   # This description is used to generate tags and improve search results.
