@@ -12,15 +12,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol BXBookStoreViewDelegate <NSObject>
 @optional
-/// 登录点击事件
+/// 登录按钮点击代理
 - (void)bookStoreLogin;
-/// 开始滑动
+/// 页面开始滑动
 - (void)scrollViewBeginScroll;
 @end
    
 @interface BXBookStoreView : UIView
-   /// 登录按钮点击事件代理
+/// 代理
 @property (nonatomic,weak) id<BXBookStoreViewDelegate> delegate;
+/// 媒体方用户id
 @property (nonatomic,strong) NSString *userId;
 @end
 
