@@ -8,13 +8,17 @@
 		<data>
 		fI4cz1pD0YoN5YIWGR4SftJwNSI=
 		</data>
+		<key>Headers/BXEntraceMaterilsModel.h</key>
+		<data>
+		sUSVc4pz4qaqc+zlQ2y2uqd6Jp8=
+		</data>
 		<key>Headers/BXNovelManager.h</key>
 		<data>
-		hqFYD7Nf2/ZFki6YCTpvArjpPbM=
+		IrQlt7LAEhzGLbrhdt7Knj38m8I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0IqWCRlKDNpW94LQhs9Hs9wJLh4=
+		HtAOrp1lpmaKSbhM0MBoA2ATj4c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -30,15 +34,26 @@
 			gCtUfF4HzUKTnyA6K7DxJy3Af3ICpHcySo0zdXqT5Tc=
 			</data>
 		</dict>
+		<key>Headers/BXEntraceMaterilsModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sUSVc4pz4qaqc+zlQ2y2uqd6Jp8=
+			</data>
+			<key>hash2</key>
+			<data>
+			n0DhcN+LurNWcFfCdCQyBrLgLBAC88QpERkALZMMULo=
+			</data>
+		</dict>
 		<key>Headers/BXNovelManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hqFYD7Nf2/ZFki6YCTpvArjpPbM=
+			IrQlt7LAEhzGLbrhdt7Knj38m8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			YvVZPzyu254bnKvhCRYi+PKqd/hofK2DA00KCmm8mP0=
+			vx0U2Q8t/qRGHcARc+cFtuA3o1UDtLmN3ksxPWUBDrw=
 			</data>
 		</dict>
 	</dict>

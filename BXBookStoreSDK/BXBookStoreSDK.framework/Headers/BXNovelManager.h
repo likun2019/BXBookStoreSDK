@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import "BXEntraceMaterilsModel.h"
 
 @interface BXNovelManager : NSObject
 
@@ -20,6 +20,18 @@
 - (void)setAppKey:(NSString *)appkey
         secretKey:(NSString *)secretKey;
 
+/// 获取入口素材
+/// @param placeId 媒体资源位入口，通过平台获取
+/// @param userId 媒体用户唯一标示
+/// @param materilasModel 素材请求成功
+/// @param error 素材请求失败,错误码
+- (void)getEntranceMaterialsWithPlacId:(NSString *)placeId
+                                userId:(NSString *)userId
+                               success:(void(^)(BXEntraceMaterilsModel *model))materilasModel
+                                  fail:(void(^)(NSString *error))error;
+
+/// 入口素材点击上报
+- (void)entranceMaterialsClickEventTracking;
 
 @end
 
