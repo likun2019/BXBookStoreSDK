@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BXBookStoreView.h</key>
-		<data>
-		fI4cz1pD0YoN5YIWGR4SftJwNSI=
-		</data>
 		<key>Headers/BXEntraceMaterilsModel.h</key>
 		<data>
 		sUSVc4pz4qaqc+zlQ2y2uqd6Jp8=
 		</data>
 		<key>Headers/BXNovelManager.h</key>
 		<data>
-		IrQlt7LAEhzGLbrhdt7Knj38m8I=
+		6jlFQi6+lLuqrW5LxkSg3EGqKLE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,17 +19,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/BXBookStoreView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fI4cz1pD0YoN5YIWGR4SftJwNSI=
-			</data>
-			<key>hash2</key>
-			<data>
-			gCtUfF4HzUKTnyA6K7DxJy3Af3ICpHcySo0zdXqT5Tc=
-			</data>
-		</dict>
 		<key>Headers/BXEntraceMaterilsModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -49,11 +34,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IrQlt7LAEhzGLbrhdt7Knj38m8I=
+			6jlFQi6+lLuqrW5LxkSg3EGqKLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vx0U2Q8t/qRGHcARc+cFtuA3o1UDtLmN3ksxPWUBDrw=
+			7m0wqU1MJQmeXOkyPy2Z0u6gIwfIKtOJXZOTyXBx1II=
 			</data>
 		</dict>
 	</dict>
