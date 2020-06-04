@@ -37,8 +37,9 @@
         secretKey:(NSString *)secretKey;
 
 /// present方式打开书城首页 主要应用场景: 全屏显示
-/// @param thirdUserId 三方用户唯一标示
-- (void)presentBookStoreWtihUserId:(NSString *)thirdUserId;
+/// @param thirdUserId  三方用户唯一标示
+/// @param rootController 当前控制器
+- (void)presentBookStoreWtihUserId:(NSString *)thirdUserId rootController:(UIViewController *)rootController;
 
 
 /// 获取小说容器视图 主要应用场景: tab栏嵌入小说书城
