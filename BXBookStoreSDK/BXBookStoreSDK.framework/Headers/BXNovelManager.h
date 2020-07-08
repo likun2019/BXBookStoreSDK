@@ -29,7 +29,8 @@
 
 /// 设置书城用户id
 /// @param userId 用户id
-- (void)setBookStoreUserId:(NSString *)userId;
+/// @param placeId 资源位id
+- (void)setBookStoreUserId:(NSString *)userId placeId:(NSString *)placeId;
 /// 设置平台appkey
 /// @param appkey 平台的appKey
 /// @param secretKey 平台的appSecret
@@ -38,14 +39,16 @@
 
 /// present方式打开书城首页 主要应用场景: 全屏显示
 /// @param thirdUserId  三方用户唯一标示
+/// @param placeId 资源位Id
 /// @param rootController 当前控制器
-- (void)presentBookStoreWtihUserId:(NSString *)thirdUserId rootController:(UIViewController *)rootController;
+- (void)presentBookStoreWtihUserId:(NSString *)thirdUserId placeId:(NSString *)placeId rootController:(UIViewController *)rootController;
 
 
 /// 获取小说容器视图 主要应用场景: tab栏嵌入小说书城
 /// @param frame 视图frame
 /// @param thirdUserId 三方用户唯一标示
-- (UIView *)getBookStoreViewWithFram:(CGRect)frame thirdUserId:(NSString *)thirdUserId;
+/// @param placeId 资源位Id
+- (UIView *)getBookStoreViewWithFram:(CGRect)frame thirdUserId:(NSString *)thirdUserId placeId:(NSString *)placeId;
 
 /// 获取入口素材
 /// @param placeId 媒体资源位入口，通过平台获取
