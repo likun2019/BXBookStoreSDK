@@ -18,6 +18,11 @@
 
 /// 书城视图滑动事件,(三方自己计时)
 - (void)bookStoreViewBeginScroll;
+
+/// 显示媒体广告源的广告
+/// @param params 广告参数
+/// @param callBack 回调函数名
+- (void)showAd:(NSDictionary *)params callBack:(NSString *)callBack;
 @end
 
 @interface BXNovelManager : NSObject
@@ -50,6 +55,13 @@
 /// @param placeId 资源位Id
 - (UIView *)getBookStoreViewWithFram:(CGRect)frame thirdUserId:(NSString *)thirdUserId placeId:(NSString *)placeId;
 
+/**
+ **************************************************
+ 
+ 入口素材
+ 
+ ****************************************************
+*/
 /// 获取入口素材
 /// @param placeId 媒体资源位入口，通过平台获取
 /// @param userId 媒体用户唯一标示(选填)
@@ -62,6 +74,35 @@
 
 /// 入口素材点击上报
 - (void)entranceMaterialsClickEventTracking;
+
+/**
+ **************************************************
+ 
+ 激励视频事件上报
+ 
+ ****************************************************
+*/
+
+/// 激励视频加载成功
+/// @param params 参数
+/// @param callBack 回调
+- (void)uploadVideoLoad:(NSDictionary *)params callBack:(NSString *)callBack;
+/// 激励视频被点击
+/// @param params 参数
+/// @param callBack 回调
+- (void)uploadVideoClick:(NSDictionary *)params callBack:(NSString *)callBack;
+/// 激励视频播放完成
+/// @param params 参数
+/// @param callBack 回调
+- (void)uploadVideoComplete:(NSDictionary *)params callBack:(NSString *)callBack;
+/// 激励视频播放出错
+/// @param params 参数
+/// @param callBack 回调
+- (void)uploadVideoError:(NSDictionary *)params callBack:(NSString *)callBack;
+/// 激励视频点击关闭按钮
+/// @param params 参数
+/// @param callBack 回调
+- (void)uploadVideoClose:(NSDictionary *)params callBack:(NSString *)callBack;
 
 @end
 
