@@ -31,6 +31,8 @@
 
 /// 书城代理方法
 @property (nonatomic,weak) id<BookStoreDelegate> delegate;
+/// 当前视图控制器
+@property (nonatomic,strong) UIViewController *currentViewController;
 
 /// 设置书城用户id
 /// @param userId 用户id
